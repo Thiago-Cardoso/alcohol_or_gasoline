@@ -43,26 +43,10 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     arel (9.0.0)
-<<<<<<< HEAD
-    bcrypt (3.1.12)
-=======
->>>>>>> dockerfile_config
     builder (3.2.3)
     byebug (10.0.2)
     concurrent-ruby (1.0.5)
     crass (1.0.4)
-<<<<<<< HEAD
-    devise (4.4.3)
-      bcrypt (~> 3.0)
-      orm_adapter (~> 0.1)
-      railties (>= 4.1.0, < 6.0)
-      responders
-      warden (~> 1.2.3)
-    devise_token_auth (0.1.43)
-      devise (> 3.5.2, < 4.5)
-      rails (< 6)
-=======
->>>>>>> dockerfile_config
     diff-lcs (1.3)
     erubi (1.7.1)
     factory_bot (4.10.0)
@@ -76,10 +60,6 @@ GEM
       activerecord (>= 4.0.0)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
-<<<<<<< HEAD
-    hashie (3.5.7)
-=======
->>>>>>> dockerfile_config
     i18n (1.0.1)
       concurrent-ruby (~> 1.0)
     listen (3.0.8)
@@ -92,13 +72,10 @@ GEM
       mini_mime (>= 0.1.1)
     marcel (0.3.2)
       mimemagic (~> 0.3.2)
-<<<<<<< HEAD
-=======
     material_icons (2.2.1)
       railties (>= 3.2)
     materialize-sass (0.100.2)
       sass (~> 3.3)
->>>>>>> dockerfile_config
     method_source (0.9.0)
     mimemagic (0.3.2)
     mini_mime (1.0.0)
@@ -107,13 +84,6 @@ GEM
     nio4r (2.3.1)
     nokogiri (1.8.3)
       mini_portile2 (~> 2.3.0)
-<<<<<<< HEAD
-    omniauth (1.8.1)
-      hashie (>= 3.4.6, < 3.6.0)
-      rack (>= 1.6.2, < 3)
-    orm_adapter (0.5.0)
-=======
->>>>>>> dockerfile_config
     pg (0.21.0)
     puma (3.11.4)
     rack (2.0.5)
@@ -150,12 +120,6 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
-<<<<<<< HEAD
-    responders (2.4.0)
-      actionpack (>= 4.2.0, < 5.3)
-      railties (>= 4.2.0, < 5.3)
-=======
->>>>>>> dockerfile_config
     rspec-core (3.7.1)
       rspec-support (~> 3.7.0)
     rspec-expectations (3.7.0)
@@ -173,14 +137,11 @@ GEM
       rspec-mocks (~> 3.7.0)
       rspec-support (~> 3.7.0)
     rspec-support (3.7.1)
-<<<<<<< HEAD
-=======
     sass (3.5.6)
       sass-listen (~> 4.0.0)
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
->>>>>>> dockerfile_config
     spring (2.0.2)
       activesupport (>= 4.2)
     spring-watcher-listen (2.0.1)
@@ -197,11 +158,6 @@ GEM
     thread_safe (0.3.6)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
-<<<<<<< HEAD
-    warden (1.2.7)
-      rack (>= 1.0)
-=======
->>>>>>> dockerfile_config
     websocket-driver (0.7.0)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.3)
@@ -211,20 +167,12 @@ PLATFORMS
 
 DEPENDENCIES
   byebug
-<<<<<<< HEAD
-  devise_token_auth
-=======
->>>>>>> dockerfile_config
   factory_bot_rails
   ffaker
   friendly_id (~> 5.1.0)
   listen (~> 3.0.5)
-<<<<<<< HEAD
-  omniauth
-=======
   material_icons
   materialize-sass
->>>>>>> dockerfile_config
   pg (~> 0.18)
   puma (~> 3.0)
   rack-attack
