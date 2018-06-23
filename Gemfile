@@ -6,10 +6,13 @@ git_source(:github) do |repo_name|
 end
 
 
-gem 'omniauth'
-gem 'devise_token_auth'
+
 gem 'rack-cors'
 gem 'rack-attack'
+
+
+gem 'materialize-sass'
+gem 'material_icons'
 
 gem 'friendly_id', '~> 5.1.0'
 
