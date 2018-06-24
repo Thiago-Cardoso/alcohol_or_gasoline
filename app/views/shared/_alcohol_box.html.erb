@@ -9,13 +9,13 @@
 </div>
   <div class="card">
     <div class="card-block">
-    <%= form_tag("/exchange", method: "post", id: "exchange_form") do %>
+    <%= form_tag("/challenge", method: "post", id: "exchange_form") do %>
       <div class="row">
         <div class="input-field col s2 offset-s1">
            <%= image_tag '/icon-alcool.png', class: "img-responsive-alcool"%>
         </div>
         <div class="input-field col s6 offset-s1 input_field-alcool">
-            <input id="alcohol" placeholder="R$ 2.49" type="text" class="validate">
+            <input id="alcohol" name="alcohol" placeholder="R$ 2.49" type="text" class="validate">
             <label for="alcohol"><b>Preço do Álcool</b></label>
         </div>
     </div>
@@ -24,7 +24,7 @@
            <%= image_tag '/icon-gasolina.png', class: "img-responsive-gasoline"%>
         </div>
         <div class="input-field col s6 offset-s1 gasoline">
-          <input id="gasoline" placeholder="R$ 4.49" type="text" class="validate">
+          <input id="gasoline" name="gasoline" placeholder="R$ 4.49" type="text" class="validate">
           <label for="gasoline"><b>Preço da Gasolina</b></label>
         </div>
     </div>
