@@ -8,10 +8,10 @@ class HomeController < ApplicationController
     resultado = Float(@alcohol) / Float(@gasoline)
     @resultado = resultado.round(2)
     if @resultado > 0.70
-      mensagem = "G"
+      mensagem = "Gasolina"
       render json: {"value":  mensagem }
     else 
-      mensagem = "A"
+      mensagem = "Álcool"
         render json: {"value":  mensagem }
     end
   end

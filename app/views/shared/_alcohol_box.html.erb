@@ -9,7 +9,7 @@
 </div>
   <div class="card">
     <div class="card-block">
-    <%= form_tag("/challenge", method: "post", id: "exchange_form") do %>
+    <%= form_tag("/challenge", method: "post", remote: true,  id: "challenge_form") do %>
       <div class="row">
         <div class="input-field col s2 offset-s1">
            <%= image_tag '/icon-alcool.png', class: "img-responsive-alcool"%>
@@ -34,6 +34,17 @@
             </div>
           </div>
       <% end %>
+      <div class="card-header text-center mensagem-sucess" id="mensagem-sucess">
+        <div class="row">
+               <h1></h1>
+            <div class="col s5 m8">
+             É mais econômico
+            </div>
+            <div class="col s9 m9">
+              abastecer com <span id="mensagem-alerta" class="mensagem-alerta"></span>
+            </div>
+          </div>
+       </div>
     </div>
   </div>
 
