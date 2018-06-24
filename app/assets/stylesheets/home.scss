@@ -1,0 +1,74 @@
+body {
+  background: image-url("/pattern-desafio.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+ 
+.title-box{
+  margin-top: 20%;
+  .title{
+    color: white;
+    text-shadow: 2px 0px 2px #000000;
+  }
+}
+ 
+.center-align {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.img-responsive{
+  width: 80x;
+  height: 80px;
+  padding-top:20px;
+}
+
+
+.btn-big {
+  width: 80%;
+  height: 50px;
+  line-height: 10px;
+  margin-bottom: 60px;
+}
+
+.input_field-alcool{
+  margin-top: 50px;
+}
+
+.input_field-gasoline{
+  margin-top: 20px;
+}
+
+
+.img-responsive-alcool{
+  width: 60x;
+  height: 60px;
+  margin-top: 20px;
+}
+
+.img-responsive-gasoline{
+  width: 60x;
+  height: 60px;
+  position: relative;
+  bottom: 20px;
+}
+
+.mensagem{
+  font-size: 20px;
+  color: gray;
+  font-weight: bold;
+}
+
+.mensagem-alcool{
+  color: #32CD32;
+}
+
+.mensagem-gasolina{
+  color: #DC143C;
+}
