@@ -8,7 +8,7 @@ body {
 }
  
 .title-box{
-  margin-top: 20%;
+
   .title{
     color: white;
     text-shadow: 2px 0px 2px #000000;
@@ -18,7 +18,7 @@ body {
 .center-align {
   position: absolute;
   top: 50%;
-  left: 60%;
+  left: 65%;
   transform: translate(-50%, -50%);
   
 }
@@ -29,6 +29,12 @@ body {
   padding-top:20px;
 }
 
+.card{
+  height: 100%;
+}
+.alcohol_box{
+  padding-top: 5px;
+}
 
 .btn-big {
   width: 80%;
@@ -66,12 +72,15 @@ body {
   font-weight: bold;
 }
 
+
 .mensagem-alcool{
   color: #32CD32;
+  font-weight: bold;
 }
 
 .mensagem-gasolina{
   color: #DC143C;
+  font-weight: bold;
 }
 
 .mensagem-sucess{

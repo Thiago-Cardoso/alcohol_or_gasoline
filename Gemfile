@@ -23,6 +23,7 @@ gem 'pg', '~> 0.18'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 
+gem 'jquery-inputmask-rails'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
